@@ -1,0 +1,25 @@
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.d-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row
+}
+
+
+.student, .issues{
+    margin: 10px;
+    width: 500px;
+    border: 3px solid grey
+}
+
+.count-student, .count-issues{
+    color: red;
+    font-size: 20px;
+    display: block;
+    margin-left: 20px;
+}
